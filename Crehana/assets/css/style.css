@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    text-align: center;
+    word-spacing: 1.5rem;
+}
+
+.imagen_logo{
+    width: 10%;
+    margin: auto;
+}
+
+
+li{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
+
+.hero-section{
+    background-image: url(/assets/img/banner-inicio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;    
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.titulo_hero-section{
+    font-weight: lighter;
+}
+
+div h2{
+    background-color: pink;
+    font-weight: lighter;
+    opacity: 0.5;
+    margin: auto;
+    padding-block: 1rem;
+    padding: 1rem 3rem;
+    width: min-content;
+    font-size: 2rem;
+}
+
+button{
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    padding: 1rem;
+    margin-top: 1.2rem;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.main-section{
+    background-color: #173D50;
+    color: white;
+    text-align: center;
+    padding: 2rem 13rem;
+    font-family: 'Open Sans';
+    font-size: 0.8rem;
+}
+
+.titulo_main-section{
+    font-weight: lighter;
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+}
+
+article {
+    display: flex;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-size: 0.8rem;
+    text-align: justify;
+    color: gray;
+    padding-bottom: 2.5rem;
+}
+
+.imagen_article{
+    width: 40%;
+    padding: 3rem;
+}
+
+.caja_article{
+    padding-top: 1.8rem;
+    padding-right: 3rem;
+}
+
+.titulo_article{
+    font-weight: lighter;
+}
+
+hr{
+    width: 90%;
+}
+
+.subtitulo_article{
+    font-size: 1.4rem;
+    font-weight: lighter;
+    color: #47B7EF;
+}
+
+.aside{
+    display: flex;
+    background-color: #0F2B39;
+    color: honeydew;
+    text-align: center;
+    padding: 2rem 4rem 2rem 4rem;
+    font-family: 'Open Sans';
+    font-size: 0.6rem;
+    font-weight: lighter;
+}
+
+.caja-aside{
+    padding: 0.5rem;
+    text-align: center;
+}
+
+footer{
+    background-color: #091E29;
+    color: ivory;
+    text-align: center;
+    height: 4vh;
+    font-size: 0.8rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.7rem;
+}
+
+@media all and (min-width:421px) and (max-width:768px){
+    body{
+        text-align: center;
+    }
+    
+    .item_main-section{
+        width: 80%;
+        font-size: 0.6rem;
+        margin: auto;
+        text-align: center;
+    }
+
+   article{
+       display: block;
+   }
+
+   .imagen_article{
+    width: 80%;
+    margin: auto;
+    }
+
+    .caja_article{
+        width: 80%;
+        
+        margin: auto;
+    }
+
+    .aside{
+        display: block;
+        width: auto;
+    }
+
+    footer{
+        width: auto;
+    }
+}
+
+
+@media all and (max-width:400px){
+    
+    .hero-section{
+        width: 100%;
+    }
+
+    .main-section {
+        width: 100%;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    
+    
+    article{
+        display: block;
+    }
+ 
+    .imagen_article{
+     width: 100%;
+     padding: 3rem;
+     margin: auto;
+    }
+
+    .caja_article{
+        width: 100%;
+        padding: 3rem;
+        margin: auto;
+    }
+
+    .aside{
+        display: block;
+        width: 100%;
+    }
+
+    footer{
+        width: auto;
+    }
+}
+
