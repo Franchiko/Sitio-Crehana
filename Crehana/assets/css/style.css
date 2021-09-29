@@ -41,6 +41,21 @@ li{
     font-weight: lighter;
 }
 
+.titulo2_hero-section{
+    transition: transform 0.5s;
+    transition-delay: 0.3s;
+}
+
+.titulo2_hero-section:hover{
+    transform: scale(1.2,1.2);
+    color: black;
+}
+
+@keyframes animacion {
+    from {background-color: #091E29;}
+    to {background-color: pink;}
+}
+
 div h2{
     background-color: pink;
     font-weight: lighter;
@@ -61,6 +76,12 @@ button{
     font-family: 'Open Sans';
     font-weight: lighter;
     font-size: 1rem;
+    animation: animacion 3s ease 0.5s infinite;
+}
+
+button:hover{
+    background-color: #091E29;
+    color: white;
 }
 
 .main-section{
@@ -92,6 +113,11 @@ article {
 .imagen_article{
     width: 40%;
     padding: 3rem;
+    transition: transform 0.5s ease-in;
+}
+
+.imagen_article:hover{ 
+    transform: translatex(20px);
 }
 
 .caja_article{
@@ -189,7 +215,6 @@ footer{
         margin: 0rem;
     }
 
-    
     
     article{
         display: block;
